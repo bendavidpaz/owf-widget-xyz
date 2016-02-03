@@ -1,0 +1,23 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <activeProfiles>
+        <activeProfile>${artifactId}</activeProfile>
+    </activeProfiles>
+    <profiles>
+        <profile>
+            <id>${artifactId}</id>
+            <properties>
+                <build.thymeleaf.cache.enabled>false</build.thymeleaf.cache.enabled>
+                <build.logging.dir>_path to your project_/${artifactId}/target/tomcat/logs</build.logging.dir>
+                <build.logging.fileName>owf_widget</build.logging.fileName>
+            </properties>
+        </profile>
+    </profiles>
+</settings>

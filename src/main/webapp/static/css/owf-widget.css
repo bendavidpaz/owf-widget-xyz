@@ -1,0 +1,40 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: lightyellow;
+}
+
+
+#header {
+    background-color: lightyellow;
+    color: cadetblue;
+    font-family: Georgia;
+    min-height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#content{
+    min-height: 400px;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+#footer {
+    background-color: lightyellow;
+    color: cadetblue;
+    font-family: Georgia;
+    min-height: 100px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.info {
+    margin: 1em;
+    padding: 1em;
+}
+
+#producedBy{
+    font-style: italic;
+    padding: 1em;
+}
