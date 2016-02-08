@@ -1,0 +1,8 @@
+*.class
+\.idea
+*.iml
+.gradle
+/db/.gradle
+target*
+logging*
+out*
